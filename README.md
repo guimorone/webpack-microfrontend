@@ -1,6 +1,6 @@
 # Webpack and Micro Frontend
 
-Webpack and Micro frontend course
+Webpack and Micro frontend course and notes.
 
 ## Webpack
 
@@ -43,12 +43,32 @@ An example eCommerce app Module Federation in a Full Site Federation configurati
 
 ### Installation
 
-In these five directories; `addtocart`, `cart`, `home`, `pdp` and `server` run these commands:
-
 ```sh
-yarn && yarn start
+  cd microfrontend/
 ```
 
-In a different terminal window for each app.
+In these five directories:
 
-The visit the [home page](http://localhost:3000/).
+1. `addtocart`
+2. `cart`
+3. `home`
+4. `pdp`
+5. `server`
+
+run these commands:
+
+```sh
+  npm install
+  npm start
+```
+
+or
+
+```sh
+  yarn
+  yarn start
+```
+
+In a different terminal window for each app (directory).
+
+Visit the [home page](http://localhost:3000/).
